@@ -1,0 +1,6 @@
+[
+  {
+    "caller": "GET /me",
+    "callee": "service/userservice"
+  }
+]

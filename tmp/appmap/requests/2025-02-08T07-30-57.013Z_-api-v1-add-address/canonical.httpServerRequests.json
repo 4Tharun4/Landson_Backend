@@ -1,0 +1,7 @@
+[
+  {
+    "route": "POST /add-address",
+    "parameters": "(userId,fullName,phoneNumber,street,city,state,country,postalCode,isDefault)",
+    "status": 201
+  }
+]

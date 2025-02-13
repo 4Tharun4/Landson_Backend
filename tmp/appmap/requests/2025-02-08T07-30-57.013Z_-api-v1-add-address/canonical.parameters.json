@@ -1,0 +1,15 @@
+[
+  "city",
+  "country",
+  "doc",
+  "filter",
+  "fullName",
+  "isDefault",
+  "options",
+  "phoneNumber",
+  "postalCode",
+  "state",
+  "street",
+  "update",
+  "userId"
+]

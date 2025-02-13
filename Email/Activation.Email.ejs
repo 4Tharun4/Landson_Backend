@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activate Your Landson Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4fdf4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+            margin: auto;
+        }
+        h1 {
+            color: #228B22;
+        }
+        .code {
+            font-size: 24px;
+            font-weight: bold;
+            color: #008000;
+            background: #dfffd6;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #32CD32;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 128, 0, 0.3);
+        }
+        .btn:hover {
+            background-color: #228B22;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://1x8asc3k0c.ufs.sh/f/RlLZ6KjadT05SCQMQGSgb1vHqzaxCho65IY3d9yWDRmQuFTr" alt="E-Commerce Logo" class="logo">
+        <h1>Activate Your Account</h1>
+        <p>Hello <strong><%= user.name %></strong>,</p>
+        <p>Your one-time activation code is:</p>
+        <h2 class="code"><%= ActivationCode %></h2>
+        <p>Enter the OTP to activate your account.</p>
+        <p>If you didn’t request this, please ignore this email.</p>
+        <p class="footer">Need help? Contact support at <a href="mailto:support@ecommerce.com">support@ecommerce.com</a></p>
+    </div>
+</body>
+</html>
