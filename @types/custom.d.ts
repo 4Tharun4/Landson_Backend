@@ -1,5 +1,6 @@
 import { Request } from "express";
 import { IUser } from "../models/UserModel";
+import { Types } from "mongoose";
 
 declare global{
     namespace Express{

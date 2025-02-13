@@ -108,19 +108,24 @@
 //     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
 //     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
 //   }
-// }
+//}
+//}
 
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+          "*": ["node_modules/*"]
+      }
   },
-  "include": ["Server.ts", "src/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
-}
+  "include": ["./Server.ts"]
+  }
+  
