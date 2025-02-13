@@ -4,7 +4,7 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error no test Specified\"&& exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only Server.ts"
+    "start": "ts-node-dev --respawn --transpile-only Server.ts"
   },
   "author": "",
   "license": "ISC",
