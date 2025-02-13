@@ -6,7 +6,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
      "build": "rimraf dist && tsc",
-   "start": "nodemon Server.js",
+   "start": "node dist/Server.js",
    "pre-commit": "ts.check && build && add-build",
    "ts.check": "tsc --project tsconfig.json"
     },
