@@ -11,6 +11,7 @@
         "src": "/(.*)",
         "dest": "dist/Server.js"
       }
-    ]
+    ],
+    "outputDirectory": "dist"
   }
   
